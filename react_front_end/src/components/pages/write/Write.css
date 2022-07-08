@@ -1,0 +1,55 @@
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+  
+}
+
+
+.container {
+  padding-top: 20px;
+}
+
+  
+  .writeImg {
+    width: 70%;
+    height: 250px;
+    margin-left: 15%;
+    margin-top: 15px;
+
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .size{
+      height: 200px;
+  }
+
+  .clr{
+    color: rgb(2, 19, 38);
+  }
+  .b-clr{
+   color: rgba(255,255,255,.55);
+  }
+  .btn{
+      width:100px;
+  }

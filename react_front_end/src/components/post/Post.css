@@ -1,0 +1,9 @@
+
+
+.postImg {
+    width: 400px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+
+  }
